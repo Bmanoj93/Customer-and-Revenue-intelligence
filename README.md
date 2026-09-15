@@ -1,3 +1,48 @@
+
+## Customer and Revenue Intelligence
+Customer & Revenue Intelligence Data Pipeline is an end-to-end data engineering and analytics project developed using the AdventureWorks dataset. The project focuses on transforming raw customer, product, sales, returns, territory, and calendar data into reliable and actionable business insights.
+
+The solution is built using Databricks, PySpark, Delta Lake, and Bronze–Silver–Gold architecture. Data is ingested into the Bronze layer, cleaned and validated in the Silver layer, and transformed into business-ready Gold tables using a Star Schema. Incremental loading is used to process new and updated records efficiently.
+
+The project also includes Machine Learning for customer churn prediction, with MLflow for experiment tracking. The processed data is visualized through Power BI dashboards and a Streamlit application, while an AI Assistant provides natural-language business insights. Databricks Workflows automate the execution of the complete pipeline.
+
+Overall, the project demonstrates the integration of Data Engineering, Business Intelligence, Machine Learning, AI, and Automation to support customer analysis, revenue monitoring, and data-driven business decision-making.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Customer & Revenue Intelligence Platform — Setup Guide
 
 ## Step 1 — Create project folder
